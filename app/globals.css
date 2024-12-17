@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --lightblue: #DBECF4;
-  --blue: #5F84A1;
-  --darkblue: #1A4568;
-  --darkestblue: #0D2233;
+@layer base {
+  :root {
+    --lightblue: #DBECF4;
+    --blue: #5F84A1;
+    --darkblue: #1A4568;
+    --darkestblue: #0D2233;
+  }
 }
