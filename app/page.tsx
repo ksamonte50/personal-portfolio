@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="mx-28 flex">
+      <section className="mx-28 flex mb-36">
         <div>
           <h1 className="text-darkestblue text-8xl font-semibold mb-5">Hi, I'm Kyle!</h1>
-          <h2 className="text-darkestblue text-5xl w-1/2 mb-8">Front-End Developer & UI/UX Designer</h2>
-          <p className="text-darkestblue text-xl w-1/5 ml-4">I am passionate about creating <b>authentically inspired interfaces</b> that bring us all closer together. Look around to explore my previous work and feel free to contact me with any questions! </p>
+          <h2 className="text-darkestblue text-5xl w-1/3 mb-8">Front-End Developer & UI/UX Designer</h2>
+          <p className="text-darkestblue text-2xl w-1/5 ml-4">I am passionate about creating <b>authentically inspired interfaces</b> that bring us all closer together. Look around to explore my previous work and feel free to contact me with any questions! </p>
         </div>
-        <div className="absolute w-[553.01px] h-[637.53px] overflow-hidden -z-10 inset-auto left-1/2">
+        <div className="absolute w-[553.01px] h-[637.53px] overflow-hidden -z-10 inset-auto right-1/4">
           <Image
             width={4000}
             height={6000}
@@ -21,7 +21,7 @@ export default function Home() {
             className="w-full h-full object-cover scale-150"
           />
         </div>
-        <ul>
+        <ul className="flex flex-col justify-center gap-4">
           <li>
             <Link href="#">
               <svg 
@@ -54,8 +54,8 @@ export default function Home() {
           </li>
         </ul>
       </section>
-      <section>
-        
+      <section className="mx-28 bg-blue text-white rounded-3xl">
+        <h2>My Latest Work</h2>
       </section>
     </>
   );
