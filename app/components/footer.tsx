@@ -14,9 +14,9 @@ export default function Footer() {
         />
         <nav>
             <ul className="flex text-white text-xl rounded-full gap-x-3">
-                <li className="px-7 py-2.5 rounded-full hover:bg-blue transition duration-300"><Link href="#">About</Link></li>
-                <li className="px-7 py-2.5 rounded-full hover:bg-blue transition duration-300"><Link href="#">Work</Link></li>
-                <li className="px-7 py-2.5 rounded-full hover:bg-blue transition duration-300"><Link href="#">Connect</Link></li>
+                <li className="px-7 py-2.5 rounded-full hover:bg-blue transition duration-300"><Link href="/about">About</Link></li>
+                <li className="px-7 py-2.5 rounded-full hover:bg-blue transition duration-300"><Link href="/work">Work</Link></li>
+                <li className="px-7 py-2.5 rounded-full hover:bg-blue transition duration-300"><Link href="/connect">Connect</Link></li>
             </ul>
         </nav>
       </footer>
