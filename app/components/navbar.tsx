@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navbar() {
     return (
-      <nav className="flex justify-between items-center mx-28 my-12">
+      <nav className="flex justify-between items-center mx-28 mt-12 mb-24">
         <Image 
             width={83}
             height={83}

@@ -11,19 +11,18 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="mx-28 flex mb-36">
+      <section className="flex mx-28 mb-32 relative">
         <div>
-          <h1 className="text-darkestblue text-8xl font-semibold mb-5">Hi, I'm Kyle!</h1>
-          <h2 className="text-darkestblue text-5xl w-1/3 mb-8">Front-End Developer & UI/UX Designer</h2>
-          <p className="text-darkestblue text-2xl w-1/5 ml-4">I am passionate about creating <b>authentically inspired interfaces</b> that bring us all closer together. Look around to explore my previous work and feel free to contact me with any questions! </p>
+          <h1 className="text-darkestblue text-8xl font-semibold mb-7">Hi, I'm Kyle!</h1>
+          <h2 className="text-darkestblue text-5xl w-1/3 mb-16">Front-End Developer & UI/UX Designer</h2>
+          <p className="text-darkestblue text-2xl w-1/4 ml-4">I am passionate about creating <b>authentically inspired interfaces</b> that bring us all closer together. Look around to explore my previous work and feel free to contact me with any questions! </p>
         </div>
-        <div className="absolute w-[553.01px] h-[637.53px] overflow-hidden -z-10 inset-auto right-1/4">
+        <div className="absolute w-[690px] overflow-hidden -z-10 right-[15%] -top-11">
           <Image
-            width={4000}
-            height={6000}
+            width={2060}
+            height={2195}
             alt="Picture of Kyle"
-            src="/images/self_nobg.png"
-            className="w-full h-full object-cover scale-150"
+            src="/images/selfHome.png"
           />
         </div>
         <ul className="flex flex-col justify-center gap-4">
@@ -59,9 +58,11 @@ export default function Home() {
           </li>
         </ul>
       </section>
-      <section className="mx-28 bg-blue text-white rounded-3xl">
-        <h2 className="text-4xl font-bold ml-14 pt-10">My Latest Work</h2>
+      <section className="relative mx-28 mb-28 py-10 bg-blue text-white rounded-3xl">
+        <h2 className="text-5xl font-bold ml-14">My Latest Work</h2>
         <ProjectCard />
+        <div className="absolute -z-10 bg-darkblue w-full p-5 mt-5 rounded-b-3xl"></div>
+        <div className="absolute -z-20 bg-darkestblue w-full p-5 mt-10 rounded-b-3xl"></div>
       </section>
       <Footer />
     </>
