@@ -1,6 +1,6 @@
 // Components
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
 
 export default function Connect() {
     return (
@@ -42,6 +42,13 @@ export default function Connect() {
                     </li>
                 </ul>
             </aside>
+            <div>
+                <div>
+                    <div>
+                        <form action=""></form>
+                    </div>
+                </div>
+            </div>
             <Footer />
         </>
     );

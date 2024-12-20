@@ -1,11 +1,10 @@
 // Optimizations
 import Image from "next/image";
-import Link from "next/link";
 
 // Components
-import Navbar from "./components/navbar";
-import ProjectCard from "./components/projectCard";
-import Footer from "./components/footer";
+import Navbar from "../components/navbar";
+import ProjectCard from "../components/projectCard";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
