@@ -15,11 +15,11 @@ export default function About() {
                 <div className="w-[711px] h-[711px] flex-shrink-0 rounded-r-[30px] bg-darkblue pt-5">
                     <div className="w-[691px] h-[671px] flex-shrink-0 rounded-r-[30px] bg-darkestblue pt-5">
                         <Image
-                            width={631}
-                            height={631}
-                            src="/images/self.png"
+                            width={1893}
+                            height={1893}
+                            src="/images/selfAbout.png"
                             alt="Image of Kyle Samonte"
-                            className="ml-10"
+                            className="ml-10 w-[631px]"
                         />
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default function About() {
                     I’m Kyle Samonte, a passionate Front-end Developer & UI/UX Designer
                     currently based in Santa Clara, CA.
                 </h3>
-                <p className="text-lg font-normal leading-6 mt-12">
+                <p className="text-lg font-normal leading-6 mt-8">
                     My design journey began when I discovered UI/UX design in a web
                     usability class during my second year of college. My background in
                     full-stack web programming helps me make technically-informed design
