@@ -1,6 +1,11 @@
+// Optimizations
 import Image from "next/image";
 import Link from "next/link";
+
+// Components
 import Navbar from "./components/navbar";
+import ProjectCard from "./components/projectCard";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -55,8 +60,10 @@ export default function Home() {
         </ul>
       </section>
       <section className="mx-28 bg-blue text-white rounded-3xl">
-        <h2>My Latest Work</h2>
+        <h2 className="text-4xl font-bold ml-14 pt-10">My Latest Work</h2>
+        <ProjectCard />
       </section>
+      <Footer />
     </>
   );
 }
