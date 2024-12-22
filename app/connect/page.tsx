@@ -1,3 +1,6 @@
+// Client Component Directive
+'use client';
+
 // EmailJS
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
