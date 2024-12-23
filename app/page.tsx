@@ -6,6 +6,9 @@ import Navbar from "../components/navbar";
 import ProjectCard from "../components/projectCard";
 import Footer from "../components/footer";
 
+// Project Card Data
+import { projects } from "../data/projects";
+
 export default function Home() {
   return (
     <>
@@ -59,7 +62,7 @@ export default function Home() {
       </section>
       <section className="relative mx-28 mb-28 py-10 bg-blue text-white rounded-3xl">
         <h2 className="text-5xl font-bold ml-14">My Latest Work</h2>
-        <ProjectCard />
+        <ProjectCard {...projects[0]} />    
         <div className="absolute -z-10 bg-darkblue w-full p-5 mt-5 rounded-b-3xl"></div>
         <div className="absolute -z-20 bg-darkestblue w-full p-5 mt-10 rounded-b-3xl"></div>
       </section>

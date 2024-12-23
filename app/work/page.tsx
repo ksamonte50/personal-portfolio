@@ -3,13 +3,23 @@ import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
 import ProjectCard from "../../components/projectCard";
 
+// Project Card Data
+import { projects } from "../../data/projects";
+
 export default function Work() {
     return (
         <>
         <Navbar />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {projects.map((project) => (
+                    <ProjectCard
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        tags={project.tags}
+                        image={project.image}
+                        link={project.link}
+                    />
+                ))}
         <Footer />
     </>
   );
