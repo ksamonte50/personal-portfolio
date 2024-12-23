@@ -10,8 +10,9 @@ export default function Work() {
     return (
         <>
         <Navbar />
-        {projects.map((project) => (
+        {projects.map((project, index) => (
                     <ProjectCard
+                        key={index}
                         title={project.title}
                         description={project.description}
                         tags={project.tags}
