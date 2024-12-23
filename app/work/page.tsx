@@ -12,7 +12,6 @@ export default function Work() {
         <Navbar />
         {projects.map((project) => (
                     <ProjectCard
-                        key={project.id}
                         title={project.title}
                         description={project.description}
                         tags={project.tags}
